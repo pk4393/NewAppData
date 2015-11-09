@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back4">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Available Stores"
+        android:layout_gravity="center"
+        android:id="@+id/textView"
+        android:layout_marginBottom="10dp"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView" />
+</LinearLayout>
+<!-- From: file:/Users/prashantkumar/AndroidStudioProjects/MyApplication/NavigationDrawer/app/src/main/res/layout/activity_gpsbased_store_search.xml -->

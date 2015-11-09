@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linear1"
+    android:background="@drawable/ecommerce">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_weight="0.8"
+        android:layout_height="wrap_content"
+        android:text="E-CommerceApp is loading..."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="15sp"/>
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"/>
+
+    </LinearLayout>
+</LinearLayout>
+<!-- From: file:/Users/prashantkumar/AndroidStudioProjects/MyApplication/NavigationDrawer/app/src/main/res/layout/activity_splash_screen.xml -->
